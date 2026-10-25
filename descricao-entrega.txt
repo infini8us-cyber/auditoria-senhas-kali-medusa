@@ -1,0 +1,7 @@
+Estudo técnico documental sobre auditoria de senhas com Kali Linux e Medusa. O projeto
+apresenta arquitetura de laboratório isolado com Metasploitable 2 e DVWA, procedimentos
+reproduzíveis para FTP, formulário web e password spraying em SMB, listas fictícias,
+critérios de validação e medidas de mitigação. Inclui uma simulação Python offline
+executada para comparar tentativas de autenticação, bloqueio e detecção entre contas.
+A modalidade documental segue a flexibilidade do desafio. Os testes em VMs não foram
+executados e seus resultados não são apresentados como evidências práticas.
