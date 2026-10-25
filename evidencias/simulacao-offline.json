@@ -1,0 +1,62 @@
+{
+  "natureza": "simulacao_offline_sem_rede_nao_e_teste_Medusa",
+  "forca_bruta_sem_bloqueio": [
+    {
+      "usuario": "lab_ftp",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_ftp",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_ftp",
+      "resultado": "sucesso"
+    }
+  ],
+  "forca_bruta_bloqueio_apos_duas_falhas": [
+    {
+      "usuario": "lab_ftp",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_ftp",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_ftp",
+      "resultado": "bloqueado"
+    }
+  ],
+  "spraying_uma_rodada": [
+    {
+      "usuario": "lab_ana",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_bruno",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_carla",
+      "resultado": "sucesso"
+    }
+  ],
+  "alerta_spray_limiar_tres_contas_com_falha": false,
+  "cenario_tres_falhas": [
+    {
+      "usuario": "lab_ana",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_bruno",
+      "resultado": "falha"
+    },
+    {
+      "usuario": "lab_carla",
+      "resultado": "falha"
+    }
+  ],
+  "alerta_tres_contas_com_falha": true,
+  "observacao": "O limiar de falhas pode perder sequencias com sucesso; ajustar com dados reais."
+}
